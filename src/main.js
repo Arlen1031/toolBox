@@ -1,8 +1,10 @@
 // import { Link } from './js/components'
 // import './js/prototype'
 import observe from './js/observe'
+import './js/jsBridge'
 // import './styles/common.css'
 
+console.log(window.onezJsBridge)
 
 let data = {
   obj: {
